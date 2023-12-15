@@ -41,8 +41,16 @@
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": [
       "pnpm lint:fix",
-      "git add"
+      "git add "
     ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-customizable"
+    },
+    "cz-customizable": {
+      "config": "./.cz-config.js"
+    }
   },
   "browserslist": [
     "last 3 versions",
