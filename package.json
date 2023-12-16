@@ -60,9 +60,12 @@
   "author": "",
   "dependencies": {
     "@babel/runtime": "^7.21.5",
+    "@nutui/icons-react-taro": "^0.0.5",
+    "@nutui/nutui-react-taro": "^2.3.2",
     "@tarojs/components": "3.6.16",
     "@tarojs/helper": "3.6.16",
     "@tarojs/plugin-framework-react": "3.6.16",
+    "@tarojs/plugin-html": "3.6.18",
     "@tarojs/plugin-platform-alipay": "3.6.16",
     "@tarojs/plugin-platform-h5": "3.6.16",
     "@tarojs/plugin-platform-jd": "3.6.16",
@@ -74,6 +77,7 @@
     "@tarojs/runtime": "3.6.16",
     "@tarojs/shared": "3.6.16",
     "@tarojs/taro": "3.6.16",
+    "babel-plugin-import": "^1.13.8",
     "react": "^18.0.0",
     "react-dom": "^18.0.0"
   },
